@@ -1,0 +1,22 @@
+.center-text {
+    padding-bottom: 6rem;
+    margin-top: 100px;
+    overflow: visible;
+    text-align: center;     
+}
+.val{
+    width: 600px;    
+    text-align: center; 
+}
+.divInputs{
+    margin-left: 50px;
+}
+.mainLoginDiv{
+    background-color:#40E6F3;
+    width: 700px;
+    height: 400px; 
+    margin-left:400px;
+}
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}

@@ -1,0 +1,24 @@
+<div class="mainLoginDiv">
+<div id="signup-login" class="center-text">
+    <h2>Sign In</h2>
+    <p>New to Setmore ? <a routerLink="/SignUp">SignUp</a></p>
+      <div class="container" style="float: right;">
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+            <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+              <div id="user-data">
+                <div class="form-group divInputs">              
+                  <input type="text" id="username" class="form-control val" placeholder="User Name" ngModel name="userName" required #username="ngModel">
+                </div>            
+                <span class="help-block" *ngIf="!username.valid && username.touched">Please enter a valid username</span>
+                <div class="form-group divInputs">              
+                  <input type="password" id="password" class="form-control val" placeholder="Password" ngModel name="password" required>
+                </div>
+              </div>     
+              <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
