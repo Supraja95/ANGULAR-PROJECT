@@ -1,0 +1,29 @@
+<div class="mainLoginDiv">
+    <div id="signup-login" class="center-text">        
+          <div class="container" style="float: right;">
+            <div class="row">
+              <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+                <form (ngSubmit)="onSubmit()">
+                  <div id="user-data">
+                    <div class="form-group divInputs">     
+                      <label for="AppointmentDate">Date of Appointmentment : </label>
+                      <input type="datetime-local" id="AppointmentDate" name="AppointmentDate">                        
+                    </div>  
+                    <div class="form-group divInputs">
+                      <label for="DoctorName">Choose a doctor:</label>
+                      <select name="DoctorName" id="DoctorName">
+                        <option value="0">--SELECT--</option>
+                        <option value="Sathya">Sathya M.B.B.S</option>
+                        <option value="Revathi">Revathi M.D.S</option>
+                        <option value="Ramesh">Ramesh M.B.B.S</option>
+                        <option value="Aneesh">Aneesh B.D.S</option>
+                      </select>                      
+                    </div>                    
+                  </div>     
+                  <button class="btn btn-primary" type="submit" >Request Booking</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
