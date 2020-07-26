@@ -12,9 +12,8 @@ export class AppointmentComponent implements OnInit {
   
     ngOnInit(): void {
     }
-    onSubmit()
-  {
-    console.warn('sucees');
+    onSubmit()  {
+    console.log("success")
 //     if (form.value.DoctorName === '0'){
 // alert('Success');
 
