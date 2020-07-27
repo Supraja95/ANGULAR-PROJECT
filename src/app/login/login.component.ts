@@ -14,13 +14,14 @@ export class LoginComponent implements OnInit {
   }
   onSubmit(form: NgForm)
   {
-    console.log(form);
-    if (form.value.userName === 'admin' && form.value.password === 'admin123'){
-alert('Success');
+//     console.log(form);
+//     if (form.value.userName === 'admin' && form.value.password === 'admin123'){
+// alert('Success');
 
-    }
-    else{
-alert('fail');
-    }         }
+//     }
+//     else{
+// alert('fail');
+//     }     
+      }
 
 }
